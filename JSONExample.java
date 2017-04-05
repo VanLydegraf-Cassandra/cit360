@@ -5,8 +5,6 @@
  */
 package json.example;
 
-import jdk.nashorn.internal.parser.JSONParser;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -33,15 +31,6 @@ public class JSONExample {
         person.put("married", true);
 
         System.out.print(person);
-        
-        //Encode JSONArray subclass List
-        JSONArray people = new JSONArray();
-        
-        people.get(1);
-        people.get(2);
-        people.get(3);
-        
-        System.out.print(people);
     }
 
 }
